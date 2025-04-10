@@ -32,7 +32,7 @@ async def account_login(bot, m):
         raw_text = input0.text
         await input0.delete(True)
 
-        await editable.edit("__Enter Batch Name or send 1 for grabbing from text filename.__")
+        await editable.edit("__Enter 📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘​ ➥ or send 1 for grabbing from text filename.__")
         input1 = await bot.listen(chat_id=m.chat.id, filters=filters.text & filters.user(m.from_user.id))
         raw_text0 = input1.text
         await input1.delete(True)
