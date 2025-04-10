@@ -4,7 +4,7 @@ import shutil
 import os
 from master import masterdl
 
-@bot.on_message(filters.command("drm"))
+@bot.on_message(filters.command("asp"))
 async def account_login(bot, m):
     try:
         Credit = Config.CREDIT
